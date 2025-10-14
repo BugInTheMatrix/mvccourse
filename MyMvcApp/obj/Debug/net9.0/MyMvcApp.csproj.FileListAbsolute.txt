@@ -229,3 +229,4 @@
 /Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/obj/Debug/net9.0/MyMvcApp.csproj.AssemblyReference.cache
 /Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/obj/Debug/net9.0/MyMvcApp.csproj.Up2Date
+/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/obj/Debug/net9.0/MyMvcApp.sourcelink.json
