@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MyMvcApp.Data;
+using MyMvcApp.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,7 @@ builder.Services.AddDbContext<MyMvcAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyMvcAppDb"));
 
 });
-
+builder.Services.AddScoped<ITagInterface, TagRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
