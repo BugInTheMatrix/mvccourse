@@ -81,6 +81,8 @@ namespace MyMvcApp.Controllers
             }
             // Show unsuccessfull
             return RedirectToAction("Edit", new { id = editTagsRequest.Id });
+            // return RedirectToAction("List");
+
 
         }
         [HttpPost]
