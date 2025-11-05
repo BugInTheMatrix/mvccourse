@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MyMvcApp.Data;
 using MyMvcApp.Repositories;
+// "MyMvcAppDb": "Server=localhost;Database=MyMvcAppDb;User Id=sa;Password=SQLConnect1!;TrustServerCertificate=true"
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddDbContext<MyMvcAppDbContext>(options =>
 
 });
 builder.Services.AddScoped<ITagInterface, TagRepository>();
+builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
+builder.Services.AddScoped<IImageRepository, ImageRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

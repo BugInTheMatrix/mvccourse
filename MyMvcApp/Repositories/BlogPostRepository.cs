@@ -1,0 +1,75 @@
+﻿using Microsoft.EntityFrameworkCore;
+using MyMvcApp.Data;
+using MyMvcApp.Models.Domain;
+
+namespace MyMvcApp.Repositories
+{
+    public class BlogPostRepository : IBlogPostRepository
+    {
+        private MyMvcAppDbContext _context;
+        public BlogPostRepository(MyMvcAppDbContext myMvcAppDbContext) 
+        {
+            _context = myMvcAppDbContext;
+        }
+        public async Task<BlogPost> AddAsync(BlogPost blogPost)
+        {
+            await _context.BlogPosts.AddAsync(blogPost);
+            await _context.SaveChangesAsync();
+            return blogPost;
+        }
+
+        public async Task<BlogPost?> DeleteAsync(Guid id)
+        {
+            var existingBlog=await _context.BlogPosts.FindAsync(id);
+            if (existingBlog != null) 
+            {
+                _context.BlogPosts.Remove(existingBlog);
+               await _context.SaveChangesAsync();
+                return existingBlog;
+            
+            }
+            return null;
+        }
+
+        public async Task<IEnumerable<BlogPost>> GetAllAsync()
+        {
+            return await _context.BlogPosts.Include(x=>x.Tags).ToListAsync();
+        }
+
+        public async Task<BlogPost?> GetAsync(Guid id)
+        {
+            return await _context.BlogPosts.Include(x => x.Tags).FirstOrDefaultAsync(x=>x.id==id);
+        }
+
+        public Task<BlogPost?> GetByUrlHandleAsync(string urlHandle)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<BlogPost?> UpdateAsync(BlogPost blogPost)
+        {
+            var existingBlog = await _context.BlogPosts.Include(x => x.Tags)
+                .FirstOrDefaultAsync(x => x.id == blogPost.id);
+
+            if (existingBlog != null)
+            {
+                existingBlog.id = blogPost.id;
+                existingBlog.Heading = blogPost.Heading;
+                existingBlog.PageTitle = blogPost.PageTitle;
+                existingBlog.Content = blogPost.Content;
+                existingBlog.ShortDescription = blogPost.ShortDescription;
+                existingBlog.Author = blogPost.Author;
+                existingBlog.FeaturedImageUrl = blogPost.FeaturedImageUrl;
+                existingBlog.UrlHandle = blogPost.UrlHandle;
+                existingBlog.Visible = blogPost.Visible;
+                existingBlog.PublishedDate = blogPost.PublishedDate;
+                existingBlog.Tags = blogPost.Tags;
+
+                await _context.SaveChangesAsync();
+                return existingBlog;
+            }
+
+            return null;
+        }
+    }
+}
