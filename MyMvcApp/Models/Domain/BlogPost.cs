@@ -1,9 +1,11 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace MyMvcApp.Models.Domain
 {
     public class BlogPost
     {
+        public string UserId { get; set; }
         public Guid id { get; set; }
         public string Heading { get; set; }
         public string PageTitle { get; set; }

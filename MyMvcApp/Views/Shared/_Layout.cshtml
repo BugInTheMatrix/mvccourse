@@ -67,9 +67,32 @@
                           
                     </ul>
                     <div class="d-flex align-items-center ">
-                        @if (signInManager.IsSignedIn(User))
+                        @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                         {
                             <div class="me-3 text-light">
+                                
+                                @User?.Identity?.Name
+                                <a class="btn me-3 bg-light text-dark "
+                                   asp-area=""
+                                   asp-controller="Account"
+                                   asp-action="Logout">Logout</a>
+                            </div>
+                        }else if (signInManager.IsSignedIn(User) && User.IsInRole("User"))
+                        {
+                            <div class="me-1 text-light">
+                                <a class="btn me-3 bg-light text-dark "
+                                   asp-area=""
+                                   asp-controller="BlogPostUser"
+                                   asp-action="Add">Add Blog</a>
+                            </div>
+                            <div class="me-1 text-light">
+                                <a class="btn me-3 bg-light text-dark "
+                                   asp-area=""
+                                   asp-controller="BlogPostUser"
+                                   asp-action="List">View My Blogs</a>
+                            </div>
+                            <div class="me-3 text-light">
+
                                 @User?.Identity?.Name
                                 <a class="btn me-3 bg-light text-dark "
                                    asp-area=""

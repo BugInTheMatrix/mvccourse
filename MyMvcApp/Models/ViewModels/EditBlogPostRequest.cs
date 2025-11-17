@@ -4,6 +4,7 @@ namespace MyMvcApp.Models.ViewModels
 {
     public class EditBlogPostRequest
     {
+        public string userID { get; set; }
         public Guid Id { get; set; }
         public string Heading { get; set; }
         public string PageTitle { get; set; }

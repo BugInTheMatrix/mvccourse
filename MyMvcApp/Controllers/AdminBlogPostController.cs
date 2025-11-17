@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MyMvcApp.Models.Domain;
@@ -12,11 +13,13 @@ namespace MyMvcApp.Controllers
     {
         public readonly ITagInterface tagRepository;
         private readonly IBlogPostRepository blogPostRepository;
-        public AdminBlogPostController(ITagInterface tagRepository,IBlogPostRepository blogPostRepository) 
+        private readonly UserManager<IdentityUser> userManager;
+        public AdminBlogPostController(ITagInterface tagRepository,IBlogPostRepository blogPostRepository,UserManager<IdentityUser> userManager) 
         {
             this.tagRepository = tagRepository;
             this.blogPostRepository = blogPostRepository;
-        
+            this.userManager = userManager;
+
         }
         [HttpGet]
         public async Task<IActionResult> Add()
@@ -43,6 +46,7 @@ namespace MyMvcApp.Controllers
                 PublishedDate = addBlogPostRequest.PublishedDate,
                 Author = addBlogPostRequest.Author,
                 Visible = addBlogPostRequest.Visible,
+                UserId = userManager.GetUserId(User)
             };
             List<Tag> selectedTagsList= new List<Tag>();
             foreach (var id in addBlogPostRequest.SelectedTag) 
@@ -66,6 +70,7 @@ namespace MyMvcApp.Controllers
         {
             var blogs = await blogPostRepository.GetAllAsync();
             return View(blogs);
+            
         }
         [HttpGet]
         public async Task<IActionResult> Edit(Guid id)

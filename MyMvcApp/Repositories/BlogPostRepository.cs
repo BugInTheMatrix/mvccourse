@@ -1,15 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MyMvcApp.Data;
 using MyMvcApp.Models.Domain;
-
 namespace MyMvcApp.Repositories
 {
     public class BlogPostRepository : IBlogPostRepository
     {
         private MyMvcAppDbContext _context;
-        public BlogPostRepository(MyMvcAppDbContext myMvcAppDbContext) 
+        private readonly UserManager<IdentityUser> _userManager;    
+        public BlogPostRepository(MyMvcAppDbContext myMvcAppDbContext,UserManager<IdentityUser> userManager) 
         {
             _context = myMvcAppDbContext;
+            _userManager = userManager;
         }
         public async Task<BlogPost> AddAsync(BlogPost blogPost)
         {
@@ -53,7 +55,6 @@ namespace MyMvcApp.Repositories
 
             if (existingBlog != null)
             {
-                existingBlog.id = blogPost.id;
                 existingBlog.Heading = blogPost.Heading;
                 existingBlog.PageTitle = blogPost.PageTitle;
                 existingBlog.Content = blogPost.Content;
@@ -72,5 +73,15 @@ namespace MyMvcApp.Repositories
             return null;
         }
 
+        public async Task<IEnumerable<BlogPost>> GetAllAsyncByUserId(string userId)
+        {
+            return await _context.BlogPosts.Include(x=>x.Tags).Where(x=>x.UserId==userId).ToListAsync();
+
+        }
+        public async Task<BlogPost?> GetAsyncByUserIdAndBlogId(string userId,Guid id)
+        {
+            return await _context.BlogPosts.Include(x => x.Tags).FirstOrDefaultAsync(x => x.UserId == userId && x.id==id);
+
+        }
     }
 }

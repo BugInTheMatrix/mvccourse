@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyMvcApp.Models;
 using MyMvcApp.Models.ViewModels;
@@ -11,15 +12,17 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly IBlogPostRepository _blogPostRepository;
     private readonly ITagInterface _tagRepository;
-
+    private readonly UserManager<IdentityUser> _userManager;
     public HomeController(ILogger<HomeController> logger, 
         IBlogPostRepository blogPostRepository,
-        ITagInterface tagRepository
+        ITagInterface tagRepository,
+        UserManager<IdentityUser> userManager
         )
     {
         _logger = logger;
         _blogPostRepository = blogPostRepository;
         _tagRepository = tagRepository;
+        _userManager = userManager;
     }
 
     public async Task<IActionResult> Index()
