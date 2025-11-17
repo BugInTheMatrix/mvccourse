@@ -19,6 +19,11 @@ namespace MyMvcApp.Repositories
             return tag;
         }
 
+        public async Task<int> CountAsync()
+        {
+            return await _myMvcAppDbContext.Tags.CountAsync();
+        }
+
         public async Task<Tag?>DeleteAsync(Guid id)
         {
             var existingTag =await _myMvcAppDbContext.Tags.FindAsync(id);
@@ -31,10 +36,44 @@ namespace MyMvcApp.Repositories
             return null;
         }
 
-        public async Task<IEnumerable<Tag>> GetAllAsync()
+        public async Task<IEnumerable<Tag>> GetAllAsync(
+            string? searchQuery,
+            string? sortBy,
+            string? sortDirection,
+            int pageSize=100,
+            int pageNumber=1)
         {
-            var tags = await _myMvcAppDbContext.Tags.ToListAsync();
-            return tags;
+            var query = _myMvcAppDbContext.Tags.AsQueryable();
+            if (!string.IsNullOrWhiteSpace(searchQuery))
+            {
+                query= query.Where(x=>x.Name.Contains(searchQuery)||
+                x.DisplayName.Contains(searchQuery));
+            }
+
+
+            //
+            if (string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                var isDesc = string.Equals(sortDirection, "Desc", StringComparison.OrdinalIgnoreCase);
+
+                if (string.Equals(sortBy, "Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    query = isDesc ? query.OrderByDescending(x => x.Name) : query.OrderBy(x => x.Name);
+                }
+
+                if (string.Equals(sortBy, "DisplayName", StringComparison.OrdinalIgnoreCase))
+                {
+                    query = isDesc ? query.OrderByDescending(x => x.DisplayName) : query.OrderBy(x => x.DisplayName);
+                }
+            }
+            //
+
+            var skipResults = (pageNumber - 1) * pageSize;
+            query = query.Skip(skipResults).Take(pageSize);
+
+            return await query.ToListAsync();
+            //var tags = await _myMvcAppDbContext.Tags.ToListAsync();
+            //return tags;
         }
 
         public async Task<Tag?> GetAsync(Guid id)

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MyMvcApp.Models.Domain;
@@ -6,6 +7,7 @@ using MyMvcApp.Repositories;
 
 namespace MyMvcApp.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminBlogPostController : Controller
     {
         public readonly ITagInterface tagRepository;

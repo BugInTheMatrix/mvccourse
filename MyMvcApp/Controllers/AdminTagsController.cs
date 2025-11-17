@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyMvcApp.Data;
@@ -7,7 +8,7 @@ using MyMvcApp.Repositories;
 
 namespace MyMvcApp.Controllers
 {
-
+    [Authorize(Roles = "Admin")]
     public class AdminTagsController : Controller
     {
         private readonly ITagInterface _tagRepository;
@@ -15,7 +16,6 @@ namespace MyMvcApp.Controllers
         {
             this._tagRepository = tagRepository;
         }
-
 
         [HttpGet]
         public IActionResult Add()
@@ -25,6 +25,11 @@ namespace MyMvcApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(AddTagsRequest addTagsRequest)
         {
+            ValidateParametersCustom(addTagsRequest);
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             Tag tag = new Tag
             {
                 Name = addTagsRequest.Name,
@@ -34,9 +39,30 @@ namespace MyMvcApp.Controllers
             return RedirectToAction("List");
         }
         [HttpGet]
-        public async Task<IActionResult> List()
+        public async Task<IActionResult> List(
+            string? searchQuery,
+            string? sortBy,
+            string? sortDirection,
+            int pageSize=3,
+            int pageNumber=1)
         {
-            var tags=await _tagRepository.GetAllAsync();
+            var totalRecords= await _tagRepository.CountAsync();
+            var totalPages = Math.Ceiling((decimal)totalRecords / pageSize);
+            if (pageNumber > totalPages)
+            {
+                pageNumber--;
+            }
+            if (pageNumber < 1)
+            {
+                pageNumber++;
+            }
+            ViewBag.TotalPages = totalPages;
+            ViewBag.searQuery = searchQuery;
+            ViewBag.sortBy = sortBy;
+            ViewBag.sortDirection = sortDirection;
+            ViewBag.pageSize = pageSize;
+            ViewBag.pageNumber = pageNumber;
+            var tags=await _tagRepository.GetAllAsync(searchQuery,sortBy,sortDirection,pageSize,pageNumber);
             return View(tags);
         }
         [HttpGet]
@@ -97,6 +123,17 @@ namespace MyMvcApp.Controllers
             return RedirectToAction("Edit", new { id = editTagsRequest.Id });
             
 
+        }
+        public void ValidateParametersCustom(AddTagsRequest addTagsRequest)
+        {
+            if (addTagsRequest.Name != null && addTagsRequest.DisplayName != null) 
+            {
+                if (addTagsRequest.Name==addTagsRequest.DisplayName)
+                {
+                    ModelState.AddModelError("DisplayName", "Name should Not be equal to display name");
+                }
+            
+            }
         }
 
     }

@@ -1,8 +1,8 @@
-using System;
+﻿using MyMvcApp.Models.Domain;
 
-namespace MyMvcApp.Models.Domain
+namespace MyMvcApp.Models.ViewModels
 {
-    public class BlogPost
+    public class BlogPostLikesViewModel
     {
         public Guid id { get; set; }
         public string Heading { get; set; }
@@ -15,8 +15,9 @@ namespace MyMvcApp.Models.Domain
         public string Author { get; set; }
         public bool Visible { get; set; }
         public ICollection<Tag> Tags { get; set; }
-        public ICollection<BlogPostLike> Likes { get; set; }
-        public ICollection<BlogPostComment> Comments { get; set; }
+        public int TotalLikes { get; set; }
+        public bool Liked { get; set; }
+        public string CommentsDescription { get; set; }
+        public IEnumerable<BlogComment> BlogComments { get; set; }
     }
-    
 }

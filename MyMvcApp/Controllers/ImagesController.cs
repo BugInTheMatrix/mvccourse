@@ -15,16 +15,16 @@ namespace MyMvcApp.Controllers
             _imageRepository = imageRepository;
         }
         [HttpPost]
-        public async Task<IActionResult> UploadFile(IFormFile formFile)
+        public async Task<IActionResult> UploadFile(IFormFile file)
         {
-            var imageUrl=_imageRepository.UploadAsync(formFile);
-            if (imageUrl == null) 
-            {
-                return Problem("Not found",null, (int)HttpStatusCode.InternalServerError);
-            
-            }
-            return new JsonResult(new { imageUrl });
+            var imageUrl = await _imageRepository.UploadAsync(file);
 
+            if (imageUrl == null)
+            {
+                return Problem("Upload failed", null, (int)HttpStatusCode.InternalServerError);
+            }
+
+            return new JsonResult(new { link = imageUrl });
         }
     }
 }

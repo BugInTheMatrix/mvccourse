@@ -41,9 +41,9 @@ namespace MyMvcApp.Repositories
             return await _context.BlogPosts.Include(x => x.Tags).FirstOrDefaultAsync(x=>x.id==id);
         }
 
-        public Task<BlogPost?> GetByUrlHandleAsync(string urlHandle)
+        public async Task<BlogPost?> GetByUrlHandleAsync(string urlHandle)
         {
-            throw new NotImplementedException();
+            return await _context.BlogPosts.Include(x => x.Tags).FirstOrDefaultAsync(x => x.UrlHandle==urlHandle);
         }
 
         public async Task<BlogPost?> UpdateAsync(BlogPost blogPost)
@@ -71,5 +71,6 @@ namespace MyMvcApp.Repositories
 
             return null;
         }
+
     }
 }
