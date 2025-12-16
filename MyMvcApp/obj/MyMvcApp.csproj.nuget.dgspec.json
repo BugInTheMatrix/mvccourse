@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/MyMvcApp.csproj": {}
+    "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\MyMvcApp.csproj": {}
   },
   "projects": {
-    "/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/MyMvcApp.csproj": {
+    "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/MyMvcApp.csproj",
+        "projectUniqueName": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/MyMvcApp.csproj",
-        "packagesPath": "/Users/mb-rsaw/.nuget/packages/",
-        "outputPath": "/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/obj/",
+        "projectPath": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\MyMvcApp.csproj",
+        "packagesPath": "C:\\Users\\Rahul Sawant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mb-rsaw/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Rahul Sawant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,27 +44,35 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.EntityFrameWorkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameWorkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -80,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -17,53 +17,93 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyMvcApp
 build_property.RootNamespace = MyMvcApp
-build_property.ProjectDir = /Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/
+build_property.ProjectDir = C:\Users\Rahul Sawant\DotNet\mvccourse\MyMvcApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp
+build_property.MSBuildProjectDirectory = C:\Users\Rahul Sawant\DotNet\mvccourse\MyMvcApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/AdminTags/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UYWdzL0FkZC5jc2h0bWw=
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/AdminTags/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UYWdzL0VkaXQuY3NodG1s
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/AdminTags/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UYWdzL0xpc3QuY3NodG1s
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminBlogPost/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nUG9zdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminBlogPost/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nUG9zdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminBlogPost/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nUG9zdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminTags/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminTags/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminTags/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mb-rsaw/dotnet_course_code/mvccourse/MyMvcApp/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-xlfqnswz7s
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/AdminUser/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Vc2VyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/BlogPostUser/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1Bvc3RVc2VyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/BlogPostUser/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1Bvc3RVc2VyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rahul Sawant/DotNet/mvccourse/MyMvcApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ujr1yed5n4

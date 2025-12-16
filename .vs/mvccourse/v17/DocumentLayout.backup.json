@@ -1,0 +1,676 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\domain\\blogpostlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\domain\\blogpostlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\domain\\blogpostcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\domain\\blogpostcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\views\\adminblogpost\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\views\\adminblogpost\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\views\\adminblogpost\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\views\\adminblogpost\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\adminblogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\adminblogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\views\\adminblogpost\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\views\\adminblogpost\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\data\\mymvcappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\data\\mymvcappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\blogpostlikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\blogpostlikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\blogcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\blogcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\blogpostusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\blogpostusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\mymvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\mymvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\views\\blogpostuser\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\views\\blogpostuser\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\repositories\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\repositories\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\addblogsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\addblogsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\blogpostlikesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\blogpostlikesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\repositories\\blogpostlikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\repositories\\blogpostlikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\repositories\\iblogpostlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\repositories\\iblogpostlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\models\\viewmodels\\addlikerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\models\\viewmodels\\addlikerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|c:\\users\\rahul sawant\\dotnet\\mvccourse\\mymvcapp\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EB98A4C-30F5-3DE5-8D6A-F5DC55CC9EA4}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Program.cs",
+              "RelativeToolTip": "MyMvcApp\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:45:29.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\UsersViewModel.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\UsersViewModel.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\UsersViewModel.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\UsersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:28:24.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:28:23.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:57:01.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:54:36.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\AdminUserController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwDMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T06:31:16.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\User.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\User.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\User.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:55:24.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\Tag.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\Domain\\Tag.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\Tag.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\Domain\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:54:26.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\BlogPost.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\Domain\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\BlogPost.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\Domain\\BlogPost.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T06:24:27.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:32:43.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "MyMvcApp\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:16:55.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\AdminBlogPost\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyMvcApp\\Views\\AdminBlogPost\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\AdminBlogPost\\Edit.cshtml",
+              "RelativeToolTip": "MyMvcApp\\Views\\AdminBlogPost\\Edit.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:59:50.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\AdminBlogPost\\List.cshtml",
+              "RelativeDocumentMoniker": "MyMvcApp\\Views\\AdminBlogPost\\List.cshtml",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\AdminBlogPost\\List.cshtml",
+              "RelativeToolTip": "MyMvcApp\\Views\\AdminBlogPost\\List.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T06:17:34.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlogPostComment.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\BlogPostComment.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\Domain\\BlogPostComment.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\BlogPostComment.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\Domain\\BlogPostComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T06:28:42.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlogPostLike.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\BlogPostLike.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\Domain\\BlogPostLike.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\Domain\\BlogPostLike.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\Domain\\BlogPostLike.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:01:16.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminBlogPostController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\AdminBlogPostController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\AdminBlogPostController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\AdminBlogPostController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\AdminBlogPostController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAuwHAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:03:46.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\AdminBlogPost\\Add.cshtml",
+              "RelativeDocumentMoniker": "MyMvcApp\\Views\\AdminBlogPost\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\AdminBlogPost\\Add.cshtml",
+              "RelativeToolTip": "MyMvcApp\\Views\\AdminBlogPost\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T08:07:29.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:34:47.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyMvcAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Data\\MyMvcAppDbContext.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Data\\MyMvcAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Data\\MyMvcAppDbContext.cs",
+              "RelativeToolTip": "MyMvcApp\\Data\\MyMvcAppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:02:33.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BlogsController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\BlogsController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\BlogsController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\BlogsController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\BlogsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:08:03.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BlogPostLikeController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\BlogPostLikeController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\BlogPostLikeController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\BlogPostLikeController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\BlogPostLikeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T06:30:16.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BlogComment.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\BlogComment.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\BlogComment.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\BlogComment.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\BlogComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T06:30:35.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyMvcApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\MyMvcApp.csproj",
+              "RelativeDocumentMoniker": "MyMvcApp\\MyMvcApp.csproj",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\MyMvcApp.csproj",
+              "RelativeToolTip": "MyMvcApp\\MyMvcApp.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-27T06:12:11.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BlogPostUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\BlogPostUserController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\BlogPostUserController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\BlogPostUserController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\BlogPostUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T08:02:40.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyMvcApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyMvcApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-27T06:11:58.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyMvcApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\appsettings.json",
+              "RelativeToolTip": "MyMvcApp\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-27T06:08:01.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Repositories\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\BlogPostRepository.cs",
+              "RelativeToolTip": "MyMvcApp\\Repositories\\BlogPostRepository.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T09:53:29.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\ImagesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:32:25.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyMvcApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:42:59.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Repositories\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\IImageRepository.cs",
+              "RelativeToolTip": "MyMvcApp\\Repositories\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:43:27.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\BlogPostUser\\List.cshtml",
+              "RelativeDocumentMoniker": "MyMvcApp\\Views\\BlogPostUser\\List.cshtml",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\BlogPostUser\\List.cshtml",
+              "RelativeToolTip": "MyMvcApp\\Views\\BlogPostUser\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:26:25.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Repositories\\IBlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\IBlogPostRepository.cs",
+              "RelativeToolTip": "MyMvcApp\\Repositories\\IBlogPostRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:08:46.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddBlogsRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\AddBlogsRequest.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\AddBlogsRequest.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\AddBlogsRequest.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\AddBlogsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T08:08:47.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BlogPostLikesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\BlogPostLikesViewModel.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\BlogPostLikesViewModel.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\BlogPostLikesViewModel.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\BlogPostLikesViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:45:35.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BlogPostLikesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\BlogPostLikesRepository.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Repositories\\BlogPostLikesRepository.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\BlogPostLikesRepository.cs",
+              "RelativeToolTip": "MyMvcApp\\Repositories\\BlogPostLikesRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwBsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:06:23.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IBlogPostLikeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\IBlogPostLikeRepository.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Repositories\\IBlogPostLikeRepository.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Repositories\\IBlogPostLikeRepository.cs",
+              "RelativeToolTip": "MyMvcApp\\Repositories\\IBlogPostLikeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:05:07.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddLikeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\AddLikeRequest.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Models\\ViewModels\\AddLikeRequest.cs",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Models\\ViewModels\\AddLikeRequest.cs",
+              "RelativeToolTip": "MyMvcApp\\Models\\ViewModels\\AddLikeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:34:44.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "MyMvcApp\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Rahul Sawant\\DotNet\\mvccourse\\MyMvcApp\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "MyMvcApp\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:59:21.053Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
